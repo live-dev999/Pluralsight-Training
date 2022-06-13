@@ -1,0 +1,14 @@
+syntax="proto3";
+
+option csharp_namespace = "MeterReader.gRPC";
+
+enum Corpus
+{
+	 UNIVERSAL = 0;
+    WEB = 1;
+    IMAGES = 2;
+    LOCAL = 3;
+    NEWS = 4;
+    PRODUCTS = 5;
+    VIDEO = 6;
+}

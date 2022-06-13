@@ -4,16 +4,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MeterReaderLib
 {
-  public class JwtTokenValidationService
+    public class JwtTokenValidationService
   {
     private readonly ILogger<JwtTokenValidationService> _logger;
     private readonly UserManager<IdentityUser> _userManager;

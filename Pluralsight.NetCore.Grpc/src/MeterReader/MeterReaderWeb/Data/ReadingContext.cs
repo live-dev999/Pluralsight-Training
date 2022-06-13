@@ -3,14 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeterReaderWeb.Data
 {
-  public class ReadingContext : IdentityDbContext<IdentityUser>
+    public class ReadingContext : IdentityDbContext<IdentityUser>
   {
     public ReadingContext(DbContextOptions options) 
       : base(options)

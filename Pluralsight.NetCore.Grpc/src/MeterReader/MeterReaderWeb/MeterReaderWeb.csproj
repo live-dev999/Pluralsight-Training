@@ -34,6 +34,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Protobuf Include="..\enums.proto" GrpcServices="None" >
+      <Link>Protos\enums.proto</Link>
+    </Protobuf>
     <Protobuf Include="..\meterservice.proto" GrpcServices="Server">
       <Link>Protos\meterservice.proto</Link>
     </Protobuf>

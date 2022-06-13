@@ -1,15 +1,13 @@
 ﻿using MeterReaderWeb.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MeterReaderWeb.Data
 {
-  public class ReadingRepository : IReadingRepository
+    public class ReadingRepository : IReadingRepository
   {
     private readonly ReadingContext _context;
     private readonly ILogger<ReadingRepository> _logger;
